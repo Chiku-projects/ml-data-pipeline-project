@@ -1,0 +1,27 @@
+# Data Processing & ML
+numpy==1.24.3
+pandas==1.5.3
+scikit-learn==1.3.0
+xgboost==2.0.0
+
+# FastAPI & Web
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+email-validator==2.0.0
+requests==2.31.0
+
+# Dashboards & Visualization
+streamlit==1.28.0
+plotly==5.17.0
+
+# Databricks & Spark
+databricks-sql-connector==0.4.0
+pyspark==3.5.0
+
+# Apache Airflow
+apache-airflow==3.2.1
+
+# Utilities
+python-dotenv==1.0.0
+python-dateutil==2.8.2
