@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 markdown# Advanced ML Data Pipeline 🚀
 
 
@@ -296,3 +297,6 @@ ml-datapipeline-project/
 
 \*\*Built with ❤️ for production-grade ML systems\*\*
 
+=======
+# ml-data-pipeline-project
+>>>>>>> 155ea7b18357b26ef8c43bf6cb8c8d9dac3d0e44

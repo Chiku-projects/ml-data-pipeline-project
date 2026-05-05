@@ -6,13 +6,12 @@ import time
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-
+import os
 logger = logging.getLogger(__name__)
 
 # ✅ DATABRICKS CONFIG
 DATABRICKS_HOST = "https://dbc-89d7d975-e825.cloud.databricks.com"
-DATABRICKS_TOKEN = "***REMOVED***"
-
+DATABRICKS_TOKEN = os.getenv("***REMOVED***")
 HEADERS = {
     "Authorization": f"Bearer {DATABRICKS_TOKEN}",
     "Content-Type": "application/json"

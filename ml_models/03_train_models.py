@@ -27,8 +27,8 @@ logger = logging.getLogger(__name__)
 # ============================================================
 
 DATABRICKS_HOST = "https://dbc-89d7d975-e825.cloud.databricks.com"
-DATABRICKS_TOKEN = "***REMOVED***"
 
+DATABRICKS_TOKEN = os.getenv("***REMOVED***")
 MODEL_DIR = "./models"
 os.makedirs(MODEL_DIR, exist_ok=True)
 
